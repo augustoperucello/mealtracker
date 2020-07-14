@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.mat-grid-tile .mat-figure.mat-figure{
+  justify-content: flex-start !important ;
+  align-items: flex-start !important;
+}
+.mat-list-option {
+  .mat-list-item-content {
+    .mat-pseudo-checkbox.mat-pseudo-checkbox-checked {
+      background-color: #BB86FC;
+      border-color:white
+    }
+    .mat-pseudo-checkbox:after{
+      color:white;
+    }
+    .mat-pseudo-checkbox
+    {
+      border-color:white;
+    }
+  }
+}
+
