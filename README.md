@@ -1,5 +1,13 @@
 # Mealtracker
 
+Solução front-end em Angular para o projeto Mealtracker - Gestão de refeições de um usuário.
+
+
+
+
+
+______________________________________________________________________________________________________
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
 
 ## Development server
