@@ -1,0 +1,55 @@
+button.add_new_meal
+{
+  font-size: 5vh;
+  color: white;
+  width:40vh;
+  height:15vh;
+  position:absolute;
+  left: 15vh;
+  top: 15vh;
+  background-color: #673AB7;
+}
+button.add_new_meal:checked
+{
+  font-size: 5vh;
+  color: black;
+  width:40vh;
+  height:15vh;
+  position:absolute;
+  left: 15vh;
+  top: 15vh;
+  background-color: white;
+}
+button.plan_meals
+{
+  font-size: 5vh;
+  width:40vh;
+  color: white;
+  height:15vh;
+  position:absolute;
+  left: 75vh;
+  top: 15vh;
+  background-color: #673AB7;
+}
+button.register_foods
+{
+  font-size: 5vh;
+  color: white;
+  width:40vh;
+  height:15vh;
+  position:absolute;
+  left: 15vh;
+  top: 50vh;
+  background-color: #673AB7;
+}
+button.manage_foods
+{
+  font-size: 5vh;
+  width:40vh;
+  color: white;
+  height:15vh;
+  position:absolute;
+  left: 75vh;
+  top: 50vh;
+  background-color: #673AB7;
+}

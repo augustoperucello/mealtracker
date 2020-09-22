@@ -1,0 +1,158 @@
+h1.anm{
+  color: black;
+  font-family: 'Nurito Sans', sans-serif;
+  font-size: 5vh;
+  text-align:center;
+}
+p.frf
+{
+  position:relative;
+  font-weight:bold;
+  display:inline-block;
+}
+p.frf_field
+{
+  position:relative;
+  display:inline-block;
+  left:10vh;
+}
+div.bloco1
+{
+  white-space:nowrap;
+}
+div.bloco0
+{
+  white-space:nowrap;
+}
+p.portions
+{
+  position:relative;
+  display:inline-block;
+  left:45vh;
+}
+mat-form-field.portions_value
+{
+  position:relative;
+  width:3vh;
+  display:inline-block;
+  left: 46vh;
+}
+div.bloco2
+{
+  white-space:nowrap;
+}
+p.cal_per_por
+{
+  position:relative;
+  left:35vh;
+  display:inline-block;
+  top:-3vh;
+}
+p.cal_per_por_value
+{
+  position:relative;
+  left:37vh;
+  display:inline-block;
+  top: -3vh;
+}
+input.portions_value_fill
+{
+  text-align:center;
+}
+p.quickregister
+{
+  position:relative;
+  font-weight:bold;
+}
+p.bloco3
+{
+  white-space:nowrap;
+}
+p.name
+{
+  position:relative;
+  display:inline-block;
+}
+mat-form-field.name_field
+{
+  position:relative;
+  display:inline-block;
+  left:3vh;
+  width: 50vh;
+}
+p.name_field_fill
+{
+  position:relative;
+}
+div.bloco4
+{
+  white-space:nowrap;
+}
+p.calories_perportion
+{
+  position:relative;
+  display:inline-block;
+}
+mat-form-field.calories_perportion_field
+{
+  position:relative;
+  display:inline-block;
+  left:3vh;
+  width: 5vh;
+}
+p.calories_perportion_field_fill
+{
+  position:relative;
+}
+div.bloco5
+{
+  white-space:nowrap;
+}
+p.portions_consumed
+{
+  position:relative;
+  display:inline-block;
+}
+mat-form-field.portions_consumed_field
+{
+  position:relative;
+  display:inline-block;
+  left:3vh;
+  width: 5vh;
+}
+p.portions_consumed_field_fill
+{
+  position:relative;
+}
+div.bloco6
+{
+  white-space:nowrap;
+}
+p.category
+{
+  position:relative;
+  display:inline-block;
+}
+mat-form-field.category_field
+{
+  position:relative;
+  display:inline-block;
+  left:3vh;
+  width: 50vh;
+}
+p.category_field_fill
+{
+  position:relative;
+}
+button.okbutton {
+  position:relative;
+  top:8vh;
+  left:52vh;
+}
+button.cancelbutton
+{
+  position:relative;
+  top:8vh;
+  left:27vh;
+}
+

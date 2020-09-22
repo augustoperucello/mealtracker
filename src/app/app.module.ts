@@ -21,6 +21,7 @@ import {ListSelectionExample} from './eaten_list/eaten_list';
 import {PopupCategoryDetails} from './menu_buttons/menu.buttons';
 import {PopupFoodDetails} from './menu_buttons/menu.buttons';
 import {PopupPlanFoods} from './menu_buttons/menu.buttons';
+import {HourDisplay} from './menu_buttons/hour_adapter';
 
 import {A11yModule} from '@angular/cdk/a11y';
 import {ClipboardModule} from '@angular/cdk/clipboard';
@@ -74,6 +75,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     PopupCategoryDetails,
     PopupFoodDetails,
     PopupPlanFoods,
+    HourDisplay,
+
   ],
   exports: [
     A11yModule,

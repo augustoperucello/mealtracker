@@ -1,0 +1,27 @@
+<h1 class="top_message">Register a Food</h1>
+<div class="bloco0">
+<p class="name">Name:</p>
+<mat-form-field  class="name_field">
+  <input matInput class="name_field_fill">
+</mat-form-field>
+</div>
+<div class="bloco1">
+  <p class="calories_perportion">Calories Per Portion:</p>
+  <mat-form-field  class="calories_perportion_field">
+    <input matInput class="calories_perportion_field_fill" maxlength="4">
+  </mat-form-field>
+</div>
+<div class="bloco2">
+  <p class="portions_consumed">Portions Consumed:</p>
+  <mat-form-field  class="portions_consumed_field">
+    <input matInput class="portions_consumed_field_fill" maxlength="3">
+  </mat-form-field>
+</div>
+<div class="bloco3">
+  <p class="category">Category:</p>
+  <mat-form-field  class="category_field">
+    <input matInput class="category_field_fill">
+  </mat-form-field>
+</div>
+<button class="okbutton" mat-raised-button color="primary">OK</button>
+<button class="cancelbutton" mat-raised-button color="primary" (click)="closeDialog()">Cancel</button>

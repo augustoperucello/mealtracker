@@ -1,0 +1,17 @@
+<mat-selection-list class=list #shoes>
+<div class=entire_struct *ngFor="let shoe of typesOfShoes">
+<mat-list-option class=list2>
+  <p class=lista>{{shoe}}</p>
+</mat-list-option>
+<button class="delete" mat-icon-button><mat-icon>delete</mat-icon></button>
+<button class="edit" mat-icon-button><mat-icon>home</mat-icon></button>
+</div>
+</mat-selection-list>
+
+
+<!-- <mat-selection-list class=list #shoes>
+  <mat-list-option class=list2 *ngFor="let shoe of typesOfShoes">
+    <p class=lista>{{shoe}}</p>
+  </mat-list-option>
+</mat-selection-list> -->
+

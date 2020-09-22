@@ -1,0 +1,67 @@
+h1.top_message
+{
+  color: black;
+  font-family: 'Nurito Sans', sans-serif;
+  font-size: 5vh;
+  text-align:center;
+}
+div.bloco0
+{
+  white-space:nowrap;
+}
+div.bloco1
+{
+  white-space:nowrap;
+}
+div.bloco2
+{
+  white-space:nowrap;
+}
+p.byname
+{
+  position:relative;
+  display:inline-block;
+}
+mat-form-field.byname_field
+{
+  position:relative;
+  display:inline-block;
+  left:3vh;
+  width: 40vh;
+}
+p.byname_field_fill
+{
+  position:relative;
+}
+button.okbutton {
+  position:relative;
+  left: 38vh;
+  top: 48vh;
+}
+button.fooddetailsbutton
+{
+  position:relative;
+  left: 45vh;
+}
+button.categorydetailsbutton
+{
+  position:relative;
+  left: 45vh;
+}
+p.bycategory
+{
+  position:relative;
+  display:inline-block;
+}
+mat-form-field.bycategory_field
+{
+  position:relative;
+  display:inline-block;
+  left:3vh;
+  width: 38vh;
+}
+p.bycategory_field_fill
+{
+  position:relative;
+}
+

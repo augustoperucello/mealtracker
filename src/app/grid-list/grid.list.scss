@@ -1,0 +1,117 @@
+p.title{
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 6vh;
+  position: fixed;
+  top:10vh;
+  left: 10vh;
+}
+p.welcome{
+  color: white;
+  font-family: 'Nurito Sans', sans-serif;
+  font-size: 4vh;
+  position: fixed;
+  top: 11vh;
+  right: 47vh;
+}
+p.date{
+  color: white;
+  font-family: 'Nurito Sans', sans-serif;
+  font-size: 4vh;
+  position:fixed;
+  top: 3.7vh;
+  right: 10vh;
+}
+p.status-intake-title{
+  color: white;
+  font-family: 'Nurito Sans', sans-serif;
+  font-size: 3vh;
+  top: 10vh;
+  left: 1vh;
+  display: inline;
+}
+p.status-intake-value{
+  color: white;
+  font-family: 'Nurito Sans', sans-serif;
+  font-size: 3vh;
+  top: 10vh;
+  left: 1vh;
+  display: inline;
+  font-weight: bold;
+}
+p.status-goal-title{
+  color: white;
+  font-family: 'Nurito Sans', sans-serif;
+  font-size: 3vh;
+  top: 13vh;
+  left: 1vh;
+  display: inline;
+}
+p.status-goal-value{
+  color: white;
+  font-family: 'Nurito Sans', sans-serif;
+  font-size: 3vh;
+  top: 13vh;
+  left: 1vh;
+  display: inline;
+  font-weight: bold;
+}
+p.status-percent-title{
+  color: white;
+  font-family: 'Nurito Sans', sans-serif;
+  font-size: 3vh;
+  top: 16vh;
+  left: 1vh;
+  display: inline;
+}
+p.status-percent-value{
+  color: white;
+  font-family: 'Nurito Sans', sans-serif;
+  font-size: 3vh;
+  top: 16vh;
+  left: 1vh;
+  display: inline;
+  font-weight: bold;
+}
+p.status-left-title{
+  color: white;
+  font-family: 'Nurito Sans', sans-serif;
+  font-size: 3vh;
+  top: 19vh;
+  left: 1vh;
+  display: inline;
+}
+p.status-left-value{
+  color: white;
+  font-family: 'Nurito Sans', sans-serif;
+  font-size: 3vh;
+  top: 19vh;
+  left: 1vh;
+  display: inline;
+  font-weight: bold;
+}
+p.meals-eaten-today
+{
+  color: white;
+  font-family: 'Nurito Sans', sans-serif;
+  font-size: 3.5vh;
+  width: 100%;
+  text-align:center;
+  top: 2vh;
+  font-style:italic;
+  position: absolute;
+}
+h2{
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 4vh;
+}
+p {
+  position: relative;
+  color: white;
+}
+p.eaten_list_full
+{
+  overflow: auto;
+  top: 7vh;
+}

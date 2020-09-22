@@ -1,0 +1,62 @@
+h1.top_message
+{
+  color: black;
+  font-family: 'Nurito Sans', sans-serif;
+  font-size: 5vh;
+  text-align:center;
+}
+div.bloco0
+{
+  white-space:nowrap;
+  position:relative;
+  top:5vh;
+}
+p.name
+{
+  position:relative;
+  display:inline-block;
+}
+p.name_value
+{
+  position:relative;
+  display:inline-block;
+}
+div.bloco1
+{
+  white-space:nowrap;
+  position:relative;
+  top:7vh;
+}
+p.calories_per_portion
+{
+  position:relative;
+  display:inline-block;
+}
+p.calories_per_portion_value
+{
+  position:relative;
+  display:inline-block;
+}
+div.bloco2
+{
+  white-space:nowrap;
+  position:relative;
+  top:9vh;
+}
+p.category
+{
+  position:relative;
+  display:inline-block;
+
+}
+p.category_value
+{
+  position:relative;
+  display:inline-block;
+}
+button.backbutton
+{
+  position:relative;
+  left: 33vh;
+  top: 38vh;
+}

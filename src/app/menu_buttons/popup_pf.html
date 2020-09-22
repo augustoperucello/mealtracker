@@ -1,0 +1,20 @@
+<h1 class="pnm">Plan a new Meal</h1>
+
+<div class="bloco0">
+<p class="eatat">Eat At:</p>
+<mat-form-field appearance="fill" class="datepicker">
+  <mat-label class="chooseday">Choose a day:</mat-label>
+  <input matInput [matDatepicker]="dp" [formControl]="date">
+  <mat-datepicker-toggle matSuffix [for]="dp"></mat-datepicker-toggle>
+  <mat-datepicker #dp></mat-datepicker>
+</mat-form-field>
+</div>
+
+<div class="bloco1">
+  <p class="around">Around:</p>
+
+  </div>
+
+
+<button class="okbutton" mat-raised-button color="primary">OK</button>
+<button class="cancelbutton" mat-raised-button color="primary" (click)="closeDialog()">Cancel</button>

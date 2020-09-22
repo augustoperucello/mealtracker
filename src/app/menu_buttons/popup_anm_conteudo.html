@@ -1,0 +1,44 @@
+<h1 class="anm">Add a new meal</h1>
+<div class="bloco0">
+<p class="portions">portions:</p>
+<mat-form-field  class="portions_value">
+  <input matInput class="portions_value_fill" #postalCode maxlength="2" value="1">
+</mat-form-field>
+</div>
+<div class="bloco1">
+<p class="frf">From a registered food:</p>
+<p class="frf_field">
+  <food_autocomplete></food_autocomplete>
+</p>
+</div>
+<div class="bloco2">
+<p class="cal_per_por">calories per portion:</p>
+<p class="cal_per_por_value">890</p>
+</div>
+<p class="quickregister">Quick Food Registering:</p>
+<div class="bloco3">
+<p class="name">Name:</p>
+<mat-form-field  class="name_field">
+  <input matInput class="name_field_fill">
+</mat-form-field>
+</div>
+<div class="bloco4">
+  <p class="portions_consumed">Calories Per Portion:</p>
+  <mat-form-field  class="portions_consumed_field">
+    <input matInput class="portions_consumed_field_fill" maxlength="4">
+  </mat-form-field>
+</div>
+<div class="bloco5">
+  <p class="calories_perportion">Portions Consumed:</p>
+  <mat-form-field  class="calories_perportion_field">
+    <input matInput class="calories_perportion_field_fill" maxlength="3">
+  </mat-form-field>
+</div>
+<div class="bloco6">
+  <p class="category">Category:</p>
+  <mat-form-field  class="category_field">
+    <input matInput class="category_field_fill">
+  </mat-form-field>
+</div>
+<button class="okbutton" mat-raised-button color="primary">OK</button>
+<button class="cancelbutton" mat-raised-button color="primary" (click)="closeDialog()">Cancel</button>

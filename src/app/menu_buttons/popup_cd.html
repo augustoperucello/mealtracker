@@ -1,0 +1,9 @@
+<h1 class="top_message">Category Details</h1>
+<div class="bloco 0">
+<mat-list>
+  <mat-list-item *ngFor="let food of foods">
+    <h4 matLine>{{food}}</h4>
+ </mat-list-item>
+</mat-list>
+</div>
+<button class="backbutton" mat-raised-button color="primary"(click)="closeDialog()">Back</button>

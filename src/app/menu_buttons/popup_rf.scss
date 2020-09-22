@@ -1,0 +1,95 @@
+h1.top_message
+{
+  color: black;
+  font-family: 'Nurito Sans', sans-serif;
+  font-size: 5vh;
+  text-align:center;
+}
+div.bloco0
+{
+  white-space:nowrap;
+}
+div.bloco1
+{
+  white-space:nowrap;
+}
+p.calories_perportion
+{
+  position:relative;
+  display:inline-block;
+}
+mat-form-field.calories_perportion_field
+{
+  position:relative;
+  display:inline-block;
+  left:3vh;
+  width: 5vh;
+}
+p.calories_perportion_field_fill
+{
+  position:relative;
+}
+p.portions_consumed
+{
+  position:relative;
+  display:inline-block;
+}
+mat-form-field.portions_consumed_field
+{
+  position:relative;
+  display:inline-block;
+  left:3vh;
+  width: 5vh;
+}
+p.portions_consumed_field_fill
+{
+  position:relative;
+}
+div.bloco2
+{
+  white-space:nowrap;
+}
+p.name
+{
+  position:relative;
+  display:inline-block;
+}
+mat-form-field.name_field
+{
+  position:relative;
+  display:inline-block;
+  left:3vh;
+  width: 50vh;
+}
+p.name_field_fill
+{
+  position:relative;
+}
+button.okbutton {
+  position:relative;
+  top:36vh;
+  left:52vh;
+}
+button.cancelbutton
+{
+  position:relative;
+  top:36vh;
+  left:27vh;
+}
+p.category
+{
+  position:relative;
+  display:inline-block;
+}
+mat-form-field.category_field
+{
+  position:relative;
+  display:inline-block;
+  left:3vh;
+  width: 50vh;
+}
+p.category_field_fill
+{
+  position:relative;
+}
+

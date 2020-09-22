@@ -1,0 +1,46 @@
+<mat-grid-list cols="5" rowHeight="8.18vh">
+  <mat-grid-tile
+  [colspan]=5
+  [rowspan]=2
+  [style.background]="'#121212'"
+  >
+<p class=title>Mealtracker</p>
+<p class=welcome> Welcome, Augusto !</p>
+<p class= date>27/04 (Mon)</p>
+</mat-grid-tile>
+<mat-grid-tile
+  [colspan]=3
+  [rowspan]=10
+  [style.background]="'#202020'"
+  >
+  <menu-buttons-add_new_meal></menu-buttons-add_new_meal>
+</mat-grid-tile>
+<mat-grid-tile
+  [colspan]=2
+  [rowspan]=5
+  [style.background]="'#303030'"
+  >
+<div>
+<p class=status-intake-title>Total Calorie Intake:</p>
+<p class=status-intake-value> 1290kcal</p>
+<br>
+<p class=status-goal-title>Goal for Today:</p>
+<p class=status-goal-value> 1600kcal</p>
+<br>
+<p class=status-percent-title>% consumed:</p>
+<p class=status-percent-value> 80%</p>
+<br>
+<p class=status-left-title>Calories left:</p>
+<p class=status-left-value> 310kcal</p>
+</div>
+</mat-grid-tile>
+<mat-grid-tile
+  [colspan]=2
+  [rowspan]=5
+  [style.background]="'#202020'"
+  >
+<p class=meals-eaten-today>Meals eaten today</p>
+<p class=eaten_list_full>
+<eaten-list></eaten-list>
+</p>
+</mat-grid-tile>

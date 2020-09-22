@@ -1,0 +1,16 @@
+<h1 class="top_message">Manage Foods</h1>
+<div class="bloco0">
+<p class="byname">Search By Name:</p>
+<mat-form-field  class="byname_field">
+  <input matInput class="byname_field_fill">
+</mat-form-field>
+</div>
+<button class="fooddetailsbutton" mat-raised-button color="primary"(click)="openDialogFd()">see details</button>
+<div class="bloco1">
+  <p class="bycategory">Search By Category:</p>
+  <mat-form-field  class="bycategory_field">
+    <input matInput class="bycategory_field_fill" maxlength="4">
+  </mat-form-field>
+</div>
+<button class="categorydetailsbutton" mat-raised-button color="primary"(click)="openDialogCd()">see details</button>
+<button class="okbutton" mat-raised-button color="primary"(click)="closeDialog()">OK</button>
