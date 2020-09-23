@@ -2,6 +2,9 @@
 
 Solução front-end em Angular para o projeto Mealtracker - Gestão de refeições de um usuário.
 
+Arquitetura completa da solução:
+
+![alt text](https://github.com/augustoperucello/mealtracker/blob/master/23-set.png?raw=true)
 
 ______________________________________________________________________________________________________
 
